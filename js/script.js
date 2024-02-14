@@ -1,11 +1,9 @@
-// const successCallback = (position) => {
-//   console.log(position);
-// };
+const successCallback = (position) => {
+  console.log(position);
+};
 
-// const errorCallback = (error) => {
-//   console.log(error);
-// };
+const errorCallback = (error) => {
+  console.log(error);
+};
 
-// navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
-
-alert("hiii");
+navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
